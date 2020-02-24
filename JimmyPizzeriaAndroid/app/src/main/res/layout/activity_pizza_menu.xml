@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llRoot"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        android:scrollbarSize="5dp"
+        android:scrollbarStyle="outsideInset"
+        android:fadeScrollbars="false"
+        android:scrollbarTrackVertical="@color/white"
+        android:scrollbarThumbVertical="@drawable/scrollbar_thumb"
+        android:scrollbarAlwaysDrawVerticalTrack="true" />
+
+    <LinearLayout
+        android:id="@+id/btnBuy"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:background="@drawable/button_buy"
+        android:visibility="gone"
+        android:clickable="true"
+        android:focusable="false">
+
+        <TextView
+            android:id="@+id/lblBuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:drawableStart="@drawable/ic_buy"
+            android:drawablePadding="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
