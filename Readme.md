@@ -1,3 +1,4 @@
+![App Logo](JimmyPizzeriaAndroid/app/src/main/res/drawable-xxxhdpi/ic_no_pizza_img.png)
 # Jimmy Pizzeria Android and Windows Forms apps
 
 ## Windows Forms
